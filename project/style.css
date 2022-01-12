@@ -1,0 +1,118 @@
+h1{
+    text-align: center;
+    color: rgb(219, 208, 48);
+    font-size: 300%;
+}
+h2{
+    text-align: center;
+    color: rgb(250, 242, 242);
+    font-size: 200%;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(250, 242, 242);
+
+}
+h4{
+    margin-left: 23%;
+    font-size: 25px;
+    top: 10%;
+    color: rgb(255, 255, 254);
+}
+P{
+    text-align: left;
+    margin-left: 15%;
+    font-size: 20px;
+    color: white;
+}
+
+
+ img {
+    
+    margin-left: 40%;
+    border-radius: 50%;
+    margin-block-start: 3%;
+    
+}
+
+.column {
+    margin-right: 10px;
+    text-decoration: none;
+
+  }
+.row {
+    display: flex;
+    margin-bottom: 40px; 
+    margin-left: 43%
+  }
+
+.nav_link{
+    padding: 0.66rem 2rem;
+    position: relative;
+    font-size: 0.93rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+    color:white;
+    margin-left: 50%;
+}
+
+div{
+    color:white;
+    margin-right: 100%;
+    font-size: 35px;
+    
+}
+
+ul {
+    margin-block-start: 15%;
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 1%;
+    
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.button {
+    color:black;
+    background: rgb(219, 208, 48);
+    margin-left: 46%;
+    border-radius: 20px;
+    font-size: 35px;
+}
+
+canvas {
+    color: yellow;
+}
+.button1 {
+    display: flex;
+    margin-left: 45%;
+
+}
+
+.butt{
+    padding: 10px 50px;
+    margin: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;    
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+

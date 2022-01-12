@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>My portfolio</title>
+        
+        
+
+        <div id="multiplay">
+            <nav class="nav">
+            <a class="nav_link" href="#">home
+            </a>
+            <a class="nav_link" href="#">adress
+            </a>
+            <a class="nav_link" href="#">projects
+            </a>
+            <a class="nav_link" href="#">contact
+            </a>  
+            
+            
+           
+
+            <div id="search">
+                <input type="text" id="a"><br>
+                <p id="result"></p>
+                <button onclick="search()">search!</button>
+             </div>
+             <script>
+                function search(){
+                    var y=document.getElementById("a").value;
+                    var x="+99670410330" 
+                    var b="Ankara,1/8"
+                    if (y === "phone number"){
+                        document.getElementById("result").innerHTML=x;}
+                    else if (y === "adress"){
+                        document.getElementById("result").innerHTML=b;}
+                    else {
+                        document.getElementById("result").innerHTML="Ошибка(";}
+                   } 
+
+             </script> 
+        </nav>
+        
+    </div>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    
+     
+
+    <style>
+        body {
+          background-image: url('img/bgg.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+    </style>
+        
+
+     <body>
+        
+        
+      <img src="img/123.jpg" 
+        alt="ava" width="300" height="270">
+
+      <header>
+        
+         <h1>DARIGA DZHUSAMBAEVA</h1>
+        
+         <canvas id="myCanvas" width="1800" height="100"></canvas>
+         <script>
+            var c = document.getElementById("myCanvas");
+            var pen = c.getContext("2d");
+
+            pen.beginPath();
+            pen.moveTo(50, 100);
+            pen.lineTo(2000, 100);
+            pen.strokeStyle="yellow";
+            pen.stroke();
+            
+            </script>
+            
+         <h2>Graphic&Web Designer</h2> 
+         
+         <P>Hi! My name is Dariga Dzhusambaeva. I live in Kyrgyzstan/Bishkek. I'm 17 years old. I'm student of 2nd year IT&Business College.
+             My faculty is Graphic Design. </p>
+         <p>I’m learning Adobe Illustrator, Adobe After Effects, Adobe Photoshop and Html/Css.</P>
+         
+      </header>
+      
+          <h3>PROGRAMMS </h3>
+          
+    <div class="row">
+        <a class="column">
+            <img src="img/after-effects.png"   alt="ps" width="60" height="50">
+        </a>
+        <a class="column">
+            <img src="img/illustrator.png" alt="ae"width="60" height="50">
+        </a>
+        <a class="column">
+            <img src="img/photoshop.png" alt="ps" width="60" height="50">
+        </a>
+    </div>
+
+    <div class="button1">
+        <button class="butt" id="primary">Learn More</button>
+      </div>
+    <script>
+        let btnPrimary = document.querySelector('#primary');
+        
+        btnPrimary.addEventListener('click', () => btnPrimary.style.backgroundColor = 'rgb(219, 208, 48)')
+        
+    </script>
+
+    <footer>
+        <div></div>
+        <ul>
+            <a href="+996704791771">Phone Number |</a>
+            <a href="www.behance.com">Behance |</a>
+            <a href="www.instagram/darcywy.com">Instagram</a>
+
+        </ul>
+    </footer> 
+</body>
+ 
